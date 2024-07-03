@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c05da166-22e2-41ff-a4a7-84439cfb3869" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2iPwNbq6omqI29Uoe6mQwIA89c0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.Find Invoice Use Case.should return invoice.executor": "Run",
+    "Jest.Generate Invoice Use Case.should generate and return an invoice.executor": "Run",
+    "Jest.PaymentFacade test.should create a transaction.executor": "Run",
+    "Jest.PaymentFacade test.should create an invoice.executor": "Run",
+    "Jest.Tests in modules\\.executor": "Run",
+    "Jest.TransactionRepository test.executor": "Run",
+    "Jest.TransactionRepository test.should save a transaction.executor": "Run",
+    "Jest.invoice.repository.spec.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/Users/pbeck/Desktop/Arquivos/MonolitoModular/src/modules/invoice/usecase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/pbeck/Desktop/Arquivos/MonolitoModular/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "npm.tsc.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\pbeck\\Desktop\\Arquivos\\MonolitoModular\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\invoice\usecase" />
+      <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\invoice\usecase\find-invoice" />
+      <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\invoice\domain" />
+      <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\payment\facade" />
+      <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\invoice\facade" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Tests in modules\">
+    <configuration name="PaymentFacade test.should create a transaction" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/payment/facade/payment.facade.spec.ts" />
+      <test-names>
+        <test-name value="PaymentFacade test" />
+        <test-name value="should create a transaction" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PaymentFacade test.should create an invoice" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.spec.ts" />
+      <test-names>
+        <test-name value="PaymentFacade test" />
+        <test-name value="should create an invoice" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in modules\" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="DIRECTORY" />
+      <test-directory value="$PROJECT_DIR$/src/modules" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TransactionRepository test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.spec.ts" />
+      <test-names>
+        <test-name value="TransactionRepository test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="invoice.repository.spec.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Tests in modules\" />
+        <item itemvalue="Jest.PaymentFacade test.should create a transaction" />
+        <item itemvalue="Jest.PaymentFacade test.should create an invoice" />
+        <item itemvalue="Jest.TransactionRepository test" />
+        <item itemvalue="Jest.invoice.repository.spec.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c05da166-22e2-41ff-a4a7-84439cfb3869" name="Changes" comment="" />
+      <created>1719405480252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719405480252</updated>
+      <workItem from="1719405481288" duration="8590000" />
+      <workItem from="1719436006598" duration="3238000" />
+      <workItem from="1719489598267" duration="11516000" />
+      <workItem from="1719962091930" duration="2548000" />
+      <workItem from="1719964677762" duration="2459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MonolitoModular$Tests_in_modules_.info" NAME="Tests in modules\ Coverage Results" MODIFIED="1719966959747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
