@@ -18,7 +18,7 @@ const invoice = new Invoice({
     ),
     createdAt: new Date(),
     updatedAt: new Date(),
-    items: [new InvoiceItems({id: new Id("1"), name: "name", price: 10})]
+    items: [new InvoiceItems({id: "1", name: "name", price: 10})]
 });
 
 const MockRepository = () => {

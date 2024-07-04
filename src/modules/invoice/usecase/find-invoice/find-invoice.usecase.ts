@@ -25,7 +25,7 @@ export default class FindInvoiceUsecase implements UseCaseInterface {
                 complement: invoice.address.complement,
             },
             items: invoice.items.map(i => ({
-                id: i.id.id,
+                id: i.id,
                 name: i.name,
                 price: i.price,
             })),

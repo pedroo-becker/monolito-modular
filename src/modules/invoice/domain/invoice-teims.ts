@@ -1,13 +1,11 @@
-import Id from "../../@shared/domain/value-object/id.value-object";
-
 type InvoiceItemProps = {
-    id?: Id
+    id?: string
     name: string
     price: number
 }
 
 export default class InvoiceItems {
-    private readonly _id: Id
+    private readonly _id: string
     private readonly _name: string;
     private readonly _price: number;
 
@@ -17,7 +15,7 @@ export default class InvoiceItems {
         this._id = props.id;
     }
 
-    get id(): Id {
+    get id(): string {
         return this._id;
     }
 

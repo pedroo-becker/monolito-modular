@@ -18,7 +18,7 @@ const invoice = new Invoice({
     ),
     createdAt: new Date(),
     updatedAt: new Date(),
-    items: [new InvoiceItems({id: new Id("1"), name: "name", price: 10})]
+    items: [new InvoiceItems({id: "1", name: "name", price: 10})]
 });
 
 const MockRepository = () => {
@@ -33,7 +33,7 @@ describe("Find Invoice Use Case", () => {
         const invoiceRepository = MockRepository();
         const usecase = new FindInvoiceUsecase(invoiceRepository);
 
-        const result = await usecase.execute("1");
+        const result = await usecase.execute({id: "1"});
 
         expect(result.id).toBe("1");
         expect(result.name).toBe("Invoice");

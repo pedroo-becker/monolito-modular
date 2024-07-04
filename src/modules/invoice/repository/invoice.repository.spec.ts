@@ -38,7 +38,7 @@ describe("InvoiceRepository test", () => {
                 "state",
                 "zipCode",
             ),
-            items: [new InvoiceItems({id: new Id(), name: "itemName", price: 10})]
+            items: [new InvoiceItems({id: "1", name: "itemName", price: 10})]
         })
         const repository = new InvoiceRepository();
         const result = await repository.generate(invoice);
@@ -60,7 +60,7 @@ describe("InvoiceRepository test", () => {
                 "state",
                 "zipCode",
             ),
-            items: [new InvoiceItems({id: new Id(), name: "itemName", price: 10})]
+            items: [new InvoiceItems({id: "1", name: "itemName", price: 10})]
         })
         const repository = new InvoiceRepository();
         await repository.generate(invoice);
