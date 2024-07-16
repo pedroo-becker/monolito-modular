@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05da166-22e2-41ff-a4a7-84439cfb3869" name="Changes" comment="">
+    <list default="true" id="c05da166-22e2-41ff-a4a7-84439cfb3869" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/invoice/usecase/find-invoice/find-invoice.usecase.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/find-invoice/find-invoice.usecase.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,12 +154,26 @@
       <workItem from="1719489598267" duration="11516000" />
       <workItem from="1719962091930" duration="2548000" />
       <workItem from="1719964677762" duration="3353000" />
-      <workItem from="1720120949403" duration="761000" />
+      <workItem from="1720120949403" duration="6076000" />
+      <workItem from="1721103252084" duration="745000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <option name="closed" value="true" />
+      <created>1720122207281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720122207281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MonolitoModular$Tests_in_modules_.info" NAME="Tests in modules\ Coverage Results" MODIFIED="1719966959747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
