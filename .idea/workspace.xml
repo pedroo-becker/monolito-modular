@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c05da166-22e2-41ff-a4a7-84439cfb3869" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/checkout/usecase/place-order.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/checkout/usecase/place-order.usecase.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,31 +31,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Jest.Find Invoice Use Case.should return invoice.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.Generate Invoice Use Case.should generate and return an invoice.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.PaymentFacade test.should create a transaction.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.PaymentFacade test.should create an invoice.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.Tests in modules\\.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.TransactionRepository test.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.TransactionRepository test.should save a transaction.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.invoice.repository.spec.ts.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pbeck/Desktop/Arquivos/MonolitoModular/src/modules/invoice/usecase&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/pbeck/Desktop/Arquivos/MonolitoModular/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.tsc.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pbeck\\Desktop\\Arquivos\\MonolitoModular\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.Find Invoice Use Case.should return invoice.executor": "Run",
+    "Jest.Generate Invoice Use Case.should generate and return an invoice.executor": "Run",
+    "Jest.PaymentFacade test.should create a transaction.executor": "Run",
+    "Jest.PaymentFacade test.should create an invoice.executor": "Run",
+    "Jest.PlaceOrder Usecase.execute method.executor": "Run",
+    "Jest.PlaceOrder Usecase.execute method.should throw an error when products not valid.executor": "Run",
+    "Jest.Tests in modules\\.executor": "Run",
+    "Jest.TransactionRepository test.executor": "Run",
+    "Jest.TransactionRepository test.should save a transaction.executor": "Run",
+    "Jest.invoice.repository.spec.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/Users/pbeck/Desktop/Arquivos/MonolitoModular/src/modules/invoice/usecase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/pbeck/Desktop/Arquivos/MonolitoModular/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "npm.tsc.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\pbeck\\Desktop\\Arquivos\\MonolitoModular\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\invoice\usecase" />
@@ -67,7 +70,7 @@
       <recent name="C:\Users\pbeck\Desktop\Arquivos\MonolitoModular\src\modules\invoice\facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Tests in modules\">
+  <component name="RunManager" selected="Jest.PlaceOrder Usecase.execute method">
     <configuration name="PaymentFacade test.should create a transaction" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -94,6 +97,33 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="PlaceOrder Usecase.execute method" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/checkout/usecase/place-order.usecase.spec.ts" />
+      <test-names>
+        <test-name value="PlaceOrder Usecase" />
+        <test-name value="execute method" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlaceOrder Usecase.execute method.should throw an error when products not valid" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/checkout/usecase/place-order.usecase.spec.ts" />
+      <test-names>
+        <test-name value="PlaceOrder Usecase" />
+        <test-name value="execute method" />
+        <test-name value="should throw an error when products not valid" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in modules\" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -103,34 +133,13 @@
       <test-directory value="$PROJECT_DIR$/src/modules" />
       <method v="2" />
     </configuration>
-    <configuration name="TransactionRepository test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.spec.ts" />
-      <test-names>
-        <test-name value="TransactionRepository test" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="invoice.repository.spec.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.spec.ts" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.PlaceOrder Usecase.execute method" />
+        <item itemvalue="Jest.PlaceOrder Usecase.execute method.should throw an error when products not valid" />
         <item itemvalue="Jest.Tests in modules\" />
         <item itemvalue="Jest.PaymentFacade test.should create a transaction" />
         <item itemvalue="Jest.PaymentFacade test.should create an invoice" />
-        <item itemvalue="Jest.TransactionRepository test" />
-        <item itemvalue="Jest.invoice.repository.spec.ts" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,7 @@
       <workItem from="1719962091930" duration="2548000" />
       <workItem from="1719964677762" duration="3353000" />
       <workItem from="1720120949403" duration="6076000" />
-      <workItem from="1721103252084" duration="745000" />
+      <workItem from="1721103252084" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <option name="closed" value="true" />
@@ -165,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720122207281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <option name="closed" value="true" />
+      <created>1721104287829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721104287829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
